@@ -5,34 +5,35 @@
     <meta charset="UTF-8">
     <title>Google</title>
 </head>
+<header class="headingBanner">
+    <div class="leftSide">
+        <a class="headinglinkText AboutLink" href="#">About</a>
+        <a class="headinglinkText StoreLink" href="#">Store</a>
+    </div>
+    <div class="rightSide">
+        <div>
+            <a class="headinglinkText GmailLink" href="#">Gmail</a>
+            <a class="headinglinkText ImagesLink" href="#">Images</a>
+        </div>
+        <div>
+            <a class="productsLink" href="#">Placeholder products Text</a>
+            <a class="accountsLink" href="#">Placeholder account Text</a>
+        </div>
+    </div>
+</header>
 
 <body>
-    <header class="headingBanner">
-        <div class="leftSide">
-            <a class="headinglinkText AboutLink" href="#">About</a>
-            <a class="headinglinkText StoreLink" href="#">Store</a>
+    <div class="mainSearchArea">
+        <div class="googleImage">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
-        
-        <div class="rightSide">
-            <div>
-                <a class="headinglinkText GmailLink" href="#">Gmail</a>
-                <a class="headinglinkText ImagesLink" href="#">Images</a>
-            </div>
-            <div>
-                <a class="productsLink" href="#">Placeholder products Text</a>
-                <a class="accountsLink" href="#">Placeholder account Text</a>
-            </div>
+        <div>
+            <input type="text" class="searchBox" id="searchtextbox">  
         </div>
-    </header>
-    <div class="googleImage">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    </div>
-    <div class="searchBox">
-        <input type="text" id="searchtextbox">  
-    </div>
-    <div class="searchButtons">
-        <button type="button" id="searchbutton">Google Search</button>
-        <button type="button" id="searchbutton">I'm Feeling Lucky</button>
-    </div>
+        <div class="searchButtons">
+            <button type="button" class="searchbutton" id="searchbutton">Google Search</button>
+            <button type="button" class="searchbutton" id="luckybutton">I'm Feeling Lucky</button>
+        </div>
+</div>
 </body>
 </html>
