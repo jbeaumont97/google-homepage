@@ -1,0 +1,19 @@
+.leftSide{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: 15%;
+    float: left;
+}
+.rightSide{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.googleImage{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
