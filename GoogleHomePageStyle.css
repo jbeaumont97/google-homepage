@@ -8,24 +8,26 @@ header{
 }
 .headingBanner{
     display: block;
-    margin-top: 20px;
+    margin-top: -30px;
 }
 .leftSide{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    width: 15%;
+    width: 10%;
     float: left;
+    align-content: center;
+    margin-top: 45px;
 }
 .rightSide{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 20%;
+    width: 15%;
     float: right;
     position: static;
     left: 100%;
-    margin-top: -35px;
+    align-content: center;
 }
 .AboutLink{
     margin-left: 20px;
@@ -124,14 +126,14 @@ footer{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    width: 30%;
+    width: 20%;
     float: left;
 }
 .rightSideFooter{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 30%;
+    width: 20%;
     float: right;
 }
 
@@ -145,16 +147,22 @@ a:hover
 }
 
 p{
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(70, 68, 68);
     font-family: 'Poppins', Poppins;
 }
 header{
     font-family: 'Poppins' Poppins;
+    font-size: 14px;
 }
 body{
     font-family: 'Poppins' Poppins;
+    font-size: 14px;
 }
 footer{
     font-family: 'Poppins' Poppins;
+    font-size: 14px;
+}
+li{
+    display: inline;
 }
