@@ -48,7 +48,9 @@ header{
     height: 25px;
     width: 25px;
     text-decoration: none;
-    color: #5f6368
+    color: #5f6368;
+    position: relative;
+    top: -10px;
 }
 .ProductsLink:hover{
     background-color: rgba(60, 64, 67, 0.08);
@@ -59,6 +61,8 @@ header{
 
 .AccountsLink{
     margin-left: 15px;
+    position: relative;
+    top: 2px;
 }
 
 .mainSearchArea{
@@ -118,6 +122,10 @@ footer{
     display: flex;
     margin-bottom: 0px;
 }
+
+.LocationText{
+    margin-left: 30px;
+}
 .mainFooter{
     margin-bottom: 30px;
 }
@@ -127,6 +135,7 @@ footer{
     justify-content: space-evenly;
     width: 20%;
     float: left;
+    margin-left: -50px;
 }
 .rightSideFooter{
     display: flex;
