@@ -88,6 +88,7 @@ header{
     border-color:rgba(190, 176, 176, 0);
     width: 125px;
     height: 35px;
+    transform: translateX(-100px);
 }
 .searchbutton:hover
 {
@@ -103,9 +104,9 @@ header{
 
 .searchBox{
     border-radius: 25px;
-    min-width: 500px;
-    height: 25px;
-    transform: translateX(-5%);
+    min-width: 700px;
+    height: 40px;
+    transform: translateX(-112.5px);
     border-color: rgb(134, 127, 127);
     margin-top: 15px;
 }
@@ -115,12 +116,14 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(129, 129, 129, 0.377);
+    color: rgba(0,0,0,.54);
+    background-color: rgb(242, 242, 242);
 }
 .locationFooter
 {
     display: flex;
     margin-bottom: 0px;
+    border-bottom: 1px solid #dadce0;
 }
 
 .LocationText{
